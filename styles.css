@@ -1,0 +1,10 @@
+.title{
+    padding:5rem 0rem;
+    font-size: larger;
+    background-color: yellow;
+}
+
+.input-field{
+    width: 40rem;
+    height: 20rem;
+}
