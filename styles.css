@@ -4,7 +4,19 @@
     background-color: yellow;
 }
 
-.input-field{
-    width: 40rem;
-    height: 20rem;
+.txt-input{
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.output{
+    width: 80%;
+    height: 20vh;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+
 }
