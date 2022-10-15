@@ -1,22 +1,80 @@
+:root{
+    --primary-color: #facc15;
+    --secondary-color: #0369a1;
+    --width-break: 600px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+    color: var(--secondary-color);  
+    margin: 0;
+}
+
+.nav-header{
+    margin: 0;
+    padding:1rem 0rem;
+    background-color: var(--primary-color);
+    
+}
 .title{
-    padding:5rem 0rem;
-    font-size: larger;
-    background-color: yellow;
+   
+    font-size: 2rem;
+    text-align: center;
+}
+
+.main-container{
+    margin: auto;
+    max-width: var(--width-break);
 }
 
 .txt-input{
-    width: 80%;
-    height: 20vh;
+    width: 100%;
+    min-height: 20vh;
+    font-family: inherit;
+    font-size: large;
     display: block;
-    margin: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
+}
+
+.btn-translate{
+    background-color: var(--primary-color);
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border: none;
+    font-family: inherit;
+    color: var(--secondary-color);
+    font-size: larger;
 }
 
 .output{
-    width: 80%;
-    height: 20vh;
+    width: 100%;
+    min-height: 12vh;
+    max-height: 20vh;
+    overflow: scroll;
     border: 1px solid black;
-    margin: 1rem;
     padding: 1rem;
-
+    font-size: large;
 }
+
+.center-container{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.footer-header{
+    margin: 0;
+}
+
+.footer-text{
+    max-width: var(--width-break);
+    margin:auto;    
+}
+
